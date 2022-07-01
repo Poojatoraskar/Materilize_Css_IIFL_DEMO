@@ -1,0 +1,707 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+.orange_span {
+    font-size: 14px;
+    color: #ff6d00;
+}
+
+/* header */
+header {
+    height: 105px;
+    padding: 0px;
+}
+
+header .navbar .top_navbar .brand-logo {
+    margin: 20px;
+}
+
+.navbar {
+    box-shadow: none;
+}
+
+.inner_bottom_navbar {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.inner_bottom_navbar li a {
+    font-size: 14px;
+    margin-left: 0px;
+}
+
+.sign_button a {
+    border-radius: 25px;
+
+}
+
+.serchicon a i {
+    margin-top: 1px;
+    font-size: 20px;
+}
+
+.brand-logo img {
+    width: 200px;
+    height: 40px;
+    margin-top: -30px;
+}
+
+/* banner part */
+.banner {
+    height: 495px;
+    position: relative;
+}
+
+.banner-item .inner_left_item .main_title {
+    font-weight: 900;
+    font-size: 60px;
+    font-family: 'Roboto';
+    letter-spacing: 0.02em;
+}
+
+.inner_item {
+    display: flex;
+    align-items: center;
+}
+
+.sub_title {
+    font-style: light;
+    font-weight: 300;
+    font-size: 42px;
+    line-height: 60px;
+    /* text-transform: uppercase; */
+    font-family: 'Roboto';
+}
+
+.block {
+    display: block;
+}
+
+.inner_left_item {
+    padding-top: 50px;
+}
+
+.explore_btn {
+    width: 210px;
+    height: 56px;
+    box-shadow: 0px 4px 12px rgba(56, 56, 56, 0.2);
+    border-radius: 80px;
+    margin-top: 20px;
+}
+
+.inner_right_item {
+    position: absolute;
+    right: 30px;
+
+}
+
+.banner .banner-carousel .banner-item {
+    background-image: url(../images/bannerslider.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 490px;
+}
+
+.banner .owl-theme .owl-dots,
+.owl-theme .owl-nav {
+    position: absolute;
+    bottom: 30px;
+    left: 200px;
+}
+
+
+
+/* .Offerings */
+
+.Offerings {
+    margin-top: 50px;
+    height: 600px;
+    position: relative;
+}
+
+.Offerings-item {
+    height: 324px;
+    border: 1px solid gray;
+    padding: 30px;
+    box-shadow: 0px 4px 30px rgba(117, 116, 181, 0.2);
+}
+
+.Offerings-carousel {
+    margin-top: 60px;
+}
+
+.Offerings .divider,
+.More_Offers .divider {
+    margin-top: 80px;
+}
+
+.card-content {
+    font-size: 20px;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.margin-left {
+    margin-left: -1px;
+}
+
+.arrow_forward i {
+    color: #ff6d00;
+}
+
+.Offerings-item .card-img img {
+    width: 200px;
+    height: 150px;
+}
+
+.Offerings .owl-theme .owl-nav,
+.More_Offers .owl-theme .owl-nav {
+    position: absolute;
+    top: 370px;
+    left: 450px;
+    background: #F56E28;
+    box-shadow: 0px 4px 30px rgba(117, 116, 181, 0.2);
+    border-radius: 27px;
+    width: 56px;
+    height: 56px;
+    font-size: 26px;
+    color: #F9FBFF;
+    display: flex;
+    align-items: center;
+
+}
+
+.Offerings .owl-theme .owl-dots,
+.More_Offers .owl-theme .owl-dots {
+    display: none;
+}
+
+/* calculator */
+.calculators_section {
+    position: relative;
+    height: 600px;
+}
+
+.blue_calculatorpart {
+    background-color: #173F95;
+    height: 400px;
+    padding-top: 20px;
+}
+
+.white_blue_calculatorpart {
+    background-color: #F9FBFF;
+    height: 160px;
+}
+
+.homeloan_btn {
+    width: 280px;
+    height: 56px;
+    border-radius: 30px;
+    padding: 10px 4px;
+    margin-top: -20px;
+}
+
+.homeloan_btn i,
+span {
+    margin-left: 10px;
+}
+
+.middle_section {
+    position: absolute;
+    top: 180px;
+    left: 200px;
+}
+
+.tabsection {
+    margin-top: 30px;
+    height: 290px;
+}
+
+.tabs li a {
+    color: black;
+}
+
+.loanrange {
+    margin: 50px auto;
+}
+
+.loanrange form ul {
+    padding-left: 20px;
+}
+
+.loanamount {
+    margin-left: 100px;
+}
+
+/*                 More Offers */
+
+.More_Offers {
+    position: relative;
+    height: 700px;
+}
+
+.More_Offers-carousel {
+    margin-top: 50px;
+}
+
+.More_Offers-carousel .More_Offers-item {
+    height: 380px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.More_Offers .owl-theme .owl-nav {
+    margin-top: 60px;
+}
+
+.card_more_title {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+
+.number {
+    font-size: 60px;
+
+}
+
+.number_info {
+    margin-left: 5px;
+}
+
+.card_info_nore {
+    font-size: 12px;
+}
+
+/* happycustomer */
+
+.happycustomer {
+    position: relative;
+    margin-top: 50px;
+}
+
+.happycustomer,
+.happycustomer_carousel {
+    height: 700px;
+    background-color: #F9FBFF;
+}
+
+.happycustomer_carousel .happycustomer_item {
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.customer_img img {
+    width: 119px;
+    height: 119px;
+    margin: 20px auto;
+}
+
+.customer_info {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 30px;
+}
+
+.customer_name {
+    font-size: 20px;
+}
+
+.customer_edu {
+    font-size: 14px;
+}
+
+.slider_number {
+    font-size: 24px;
+}
+
+/* IIFL Loans Mobile App */
+
+.mobileapp {
+    height: 600px;
+    position: relative;
+    margin-top: 30px;
+    background-image: url(../images/mobileappwomen.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.mobile_inner .mobile_accout_link {
+    padding: 20px;
+}
+
+.mobile_inner .mobile_accout_link li {
+    margin-top: 20px;
+}
+
+.mobile_img {
+    position: absolute;
+    left: 650px;
+    z-index: 1;
+    top: 0;
+    width: 364px;
+    height: 666px;
+}
+
+.mobile_inner span {
+    margin-top: 20px;
+}
+
+
+.sub_title {
+    font-size: 42px;
+}
+
+/* Insights */
+
+.Insights {
+    margin-top: 150px;
+}
+
+.inner_Insights {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.inner_Insights .insights_card {
+    width: 230px;
+    height: 400px;
+
+}
+
+.Insights_card_img img {
+    width: 226px;
+    height: 155px;
+}
+
+.Insights_card_info h4 {
+    font-size: 17px;
+}
+
+.Insights_card_info ul {
+    margin-top: 10px;
+}
+
+.seeall_btn {
+    border: 1px solid #F56C28;
+    width: 210px;
+    height: 56px;
+    box-shadow: 0px 4px 12px rgba(56, 56, 56, 0.2);
+    border-radius: 80px;
+    margin: 30px auto;
+    background-color: transparent;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.seeall_btn_div {
+    margin: 0px auto;
+    width: 210px;
+    height: 56px;
+}
+
+.Insights_card_info {
+    padding: 10px;
+}
+
+.Insights_card_info p {
+    font-size: 15px;
+}
+
+
+
+
+
+
+/*                       footer */
+footer {
+    margin-top: 120px;
+}
+
+.top_footer_link {
+    margin-top: -15px;
+    background-color: #333D46;
+    padding: 5px;
+}
+
+.top_footer_link_ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top_footer_link_ul li a {
+    font-size: 12px;
+}
+
+.inner_footer_left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.left_footer_link ul li {
+    margin-top: 10px;
+}
+
+.left_footer_link ul li a {
+    font-size: 13px;
+
+}
+
+.email_here_btn {
+
+    width: 200px;
+    height: 36px;
+    padding: 5px 5px 7px 5px;
+    border-radius: 35px;
+    background-color: #272E34;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.footer_right_info {
+    font-size: 18px;
+}
+
+.inner_footer_right li a i {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.last_footer_link {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:992px) {
+    header .navbar .top_navbar .brand-logo {
+        margin-top: 20px;
+    }
+
+    .banner .banner-carousel .banner-item {
+        background-size: 100%;
+        height: 350px;
+    }
+
+    .inner_left_item .middle_section {
+        top: 180px;
+        left: 0px;
+        right: 0px;
+        width: 100%;
+    }
+
+    .banner .banner-carousel .inner_left_item .main_title {
+        font-size: 40px;
+    }
+
+    .banner .banner-carousel .inner_left_item .sub_title {
+        font-size: 25px;
+    }
+
+    .inner_left_item {
+        padding-top: 10px;
+    }
+
+    .happycustomer_carousel .happycustomer_item {
+        width: 450px;
+        height: 450px;
+    }
+
+    .customer_info {
+        padding: 0px;
+        margin-top: 0px;
+    }
+
+    .mobile_img {
+        left: 490px;
+        width: 264px;
+        height: 444px;
+    }
+
+    .mobile_img img {
+
+        width: 264px;
+        height: 444px;
+    }
+
+    .sub_title {
+        font-size: 30px;
+    }
+
+    .inner_Insights {
+        align-items: center;
+        column-gap: 25px;
+        row-gap: 40px;
+    }
+
+    .Offerings .owl-theme .owl-nav,
+    .More_Offers .owl-theme .owl-nav {
+        left: 300px;
+    }
+}
+
+@media screen and (max-width:760px) {
+
+    .banner .banner-carousel .banner-item,
+    .banner {
+        background-size: 100%;
+        height: 200px;
+    }
+
+    .banner .banner-carousel .inner_left_item .main_title {
+        font-size: 25px;
+        margin-bottom: -20px;
+    }
+
+    .happycustomer_carousel {
+        height: 400px;
+    }
+
+    .happycustomer_carousel .happycustomer_item {
+        width: 350px;
+        height: 350px;
+    }
+
+    .customer_img img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .customer_info {
+        font-size: 10px;
+    }
+
+    .customer_name {
+        font-size: 15px;
+    }
+
+    .customer_edu {
+        font-size: 12px;
+    }
+
+    .slider_number {
+        font-size: 16px;
+    }
+
+    .mobileapp {
+        background-size: 100%;
+    }
+
+    .mobile_img {
+        display: none;
+    }
+
+    .mobileapp {
+        height: 500px;
+    }
+
+    .sub_title {
+        font-size: 16px;
+    }
+
+    .last_footer_link {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand-logo img {
+        width: 200px;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .middle_section{
+    left: 10px;
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    .happycustomer_carousel .happycustomer_item {
+        width: 300px;
+        height: 300px;
+    }
+
+    .customer_name {
+        font-size: 12px;
+    }
+
+    .inner_Insights .insights_card {
+        width: 100%;
+    }
+
+    .inner_footer_left div ul li {
+        width: 100px;
+        text-align: center;
+    }
+
+    .inner_footer_left {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .Offerings .owl-theme .owl-nav,
+    .More_Offers .owl-theme .owl-nav {
+        left: 150px;
+    }
+
+    .banner .banner-carousel .inner_left_item .sub_title {
+        font-size: 10px;
+    }
+
+    .explore_btn {
+        display: none;
+    }
+
+    .owl-carousel .owl-stage {
+        width: 100%;
+    }
+
+    .banner .owl-theme .owl-dots,
+    .owl-theme .owl-nav {
+        position: absolute;
+        bottom: 30px;
+        left: 20px;
+    }
+    .banner{
+        height: 300px;
+    }
+    .Offerings-carousel {
+        margin-top: 10px;
+    }
+    .inner_left_item .middle_section{
+        left: 10px;
+    }
+    .loanamount{
+        margin-left: 0px;
+    }
+}
